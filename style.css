@@ -1,0 +1,61 @@
+/* Reset cơ bản */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Nền và bố cục chung */
+body {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: linear-gradient(45deg, #ff0000, #ff7300);
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(255, 0, 0, 0.5);
+}
+
+header h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+/* Main content */
+main {
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    padding: 10px;
+    margin-top: 20px;
+}
